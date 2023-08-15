@@ -1,0 +1,25 @@
+.AppHeader {
+  font-family: var(--font-family-title);
+}
+
+.firstLine {
+  text-align: center;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--navbar-bg-color);
+}
+
+.line {
+  padding: 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.link {
+  font-size: var(--font-size-m);
+  font-family: var(--font-family-menu);
+  text-decoration: none;
+  color: var(--primary-color);
+}

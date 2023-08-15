@@ -1,5 +1,6 @@
 import { useTheme } from "theme/useTheme";
 import { FC } from "react";
+import { AppHeader } from "components/AppHeader/AppHeader";
 
 interface MainLayoutProps {
     children: React.ReactNode
@@ -10,6 +11,7 @@ const MainLayout: FC<MainLayoutProps> = ({children}) => {
 
     return ( 
         <div className={`app ${theme}`}>
+            <AppHeader />
             <button onClick={toggleTheme}>
                 Change Theme
             </button>
