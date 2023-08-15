@@ -24,3 +24,11 @@ select {
 
     min-height: 100vh;
 }
+
+.pageTitle {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-l);
+    text-align: center;
+    line-height: var(--font-line-l); 
+    margin: 20px 0;
+}

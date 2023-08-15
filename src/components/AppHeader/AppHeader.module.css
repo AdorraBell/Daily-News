@@ -7,12 +7,13 @@
 }
 
 .secondLine {
-  display: flex;
-  justify-content: space-around;
   background-color: var(--navbar-bg-color);
 }
 
 .line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 10px;
   border-bottom: 2px solid var(--primary-color);
 }

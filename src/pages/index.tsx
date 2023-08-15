@@ -4,7 +4,9 @@ import MainLayout from "layout/MainLayout/MainLayout";
 const MainPage = () => {
     return ( 
         <MainLayout>
-            <h1>Main Page</h1>
+            <h2 className="pageTitle">
+                Main Page
+            </h2>
         </MainLayout>
      );
 }

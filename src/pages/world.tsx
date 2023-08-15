@@ -1,13 +1,13 @@
 import MainLayout from "layout/MainLayout/MainLayout"
 
-const NewsPage = () => {
+const WorldPage = () => {
   return (
     <MainLayout>
       <h2 className="pageTitle">
-        News
+        World
       </h2>
     </MainLayout>
   )
 }
 
-export default NewsPage;
+export default WorldPage;

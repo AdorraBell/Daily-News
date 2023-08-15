@@ -12,9 +12,6 @@ const MainLayout: FC<MainLayoutProps> = ({children}) => {
     return ( 
         <div className={`app ${theme}`}>
             <AppHeader />
-            <button onClick={toggleTheme}>
-                Change Theme
-            </button>
             {children}
         </div>
     );
